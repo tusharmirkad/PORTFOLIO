@@ -1,4 +1,4 @@
-import { assets } from "@/assets/assets";
+import { assets } from "@/public/assets/assets";
 import React, { useState } from "react";
 import Image from 'next/image'
 import { motion } from "motion/react"

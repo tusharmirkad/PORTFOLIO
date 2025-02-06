@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { assets } from '@/assets/assets'
+import { assets } from '@/public/assets/assets'
 import { motion, spring } from "motion/react"
 
 export default function Header() {
