@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
+import Skills from "./components/Skills";
 
 export default function Home() {
 
@@ -35,6 +36,7 @@ export default function Home() {
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <Header isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
+      <Skills />
       <Work isDarkMode={isDarkMode} />
       <Contact isDarkMode={isDarkMode} />
       <Footer isDarkMode={isDarkMode} />

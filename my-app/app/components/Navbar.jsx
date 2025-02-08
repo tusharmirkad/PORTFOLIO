@@ -35,33 +35,33 @@ export default function Navbar({isDarkMode, setIsDarkMode}) {
           <Image
             src={assets.TM_dark }
             alt=""
-            className="w-28 cursor-pointer mr-14  "
+            className="w-28 cursor-pointer mr-14 "
           />
         </a>
 
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ?"" : " bg-white bg-opacity-50 shadow-sm dark:border dark:border-white/50 dark:bg-transparent" } `}>
-          <li>
-            <a className="font-Ovo" href="#top">
+          <li className="">
+            <a className="font-Outfit   " href="#top">
               Home
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#about">
+            <a className="font-Outfit" href="#about">
               About me
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#services">
-              Services
+            <a className="font-Outfit" href="#skills">
+              Skills
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#projects">
+            <a className="font-Outfit" href="#projects">
               My Projects
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#contact">
+            <a className="font-Outfit" href="#contact">
               Contact me
             </a>
           </li>
@@ -90,7 +90,7 @@ export default function Navbar({isDarkMode, setIsDarkMode}) {
             </div>
 
             <li>
-              <a className="font-Ovo" onClick={closeMenu} href="#top">
+              <a className="font-Ovo " onClick={closeMenu} href="#top">
                 Home
               </a>
             </li>
@@ -100,8 +100,8 @@ export default function Navbar({isDarkMode, setIsDarkMode}) {
               </a>
             </li>
             <li>
-              <a className="font-Ovo" onClick={closeMenu} href="#services">
-                Services
+              <a className="font-Ovo" onClick={closeMenu} href="#skills">
+                Skills
               </a>
             </li>
             <li>

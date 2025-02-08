@@ -39,6 +39,7 @@ import tushar from './tushar.jpg';
 import github from './gitHub.png' ; 
 import TM from './TM.png';
 import TM_dark from './TM_dark.png';
+import postmann from './postmann.png';
 
 export const assets = {
     user_image,
@@ -81,7 +82,8 @@ export const assets = {
     tushar,
     github,
     TM,
-    TM_dark
+    TM_dark,
+    postmann
 };
 
 export const workData = [
@@ -125,9 +127,9 @@ export const serviceData = [
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React.js, Next.js, Node.js, Express.js, MongoDB, SQL, java, C++, python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: '3rd Year Computer Engineering Student at Bharati Vidyapeeth College of Engineering, Lavale, Pune' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Tomato food delivery, Chat-application, Zerodha-clone' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Tomato food delivery, Chat-application, Zerodha-clone, whether App' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.mongodb, assets.git
+    assets.vscode, assets.mongodb, assets.git, assets.postmann
 ];
