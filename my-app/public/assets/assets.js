@@ -95,6 +95,13 @@ export const workData = [
         deployLink: 'https://food-del-frontend-x298.onrender.com/'
     },
     {
+        title: 'Grocery Delivery',
+        description: 'Full Stack',
+        bgImage: '/work-4.png',
+        githubLink: 'https://github.com/tusharmirkad/GREENCART',
+        deployLink: 'https://greencart-flax.vercel.app/'
+    },
+    {
         title: 'Snapy Chat app',
         description: 'Full Stack',
         bgImage: '/work-2.png',
@@ -127,7 +134,7 @@ export const serviceData = [
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React.js, Next.js, Node.js, Express.js, MongoDB, SQL, java, C++, python' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: '3rd Year Computer Engineering Student at Bharati Vidyapeeth College of Engineering, Lavale, Pune' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Tomato food delivery, Chat-application, Zerodha-clone, whether App' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Tomato food delivery,GreenCart Grocery Delivery, Chat-application, Zerodha-clone, whether App' }
 ];
 
 export const toolsData = [

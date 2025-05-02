@@ -12,23 +12,25 @@ export default function Home() {
 
   const [isDarkMode, setIsDarkMode] = useState(false) ;
 
-  useEffect(() =>{
-    if(localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)){
-      setIsDarkMode(true)
-    }else{
-      setIsDarkMode(false) ;
+  useEffect(() => {
+    if (typeof window !== 'undefined') {  // Ensure code runs only on the client side
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        setIsDarkMode(true);
+      } else {
+        setIsDarkMode(false);
+      }
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
-    if(isDarkMode){
-      document.documentElement.classList.add('dark') ;
-      localStorage.theme = 'dark' ;
-    }else{
-      document.documentElement.classList.remove('dark') ;
-      localStorage.theme = '' ;
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark');
+      localStorage.theme = 'dark';
+    } else {
+      document.documentElement.classList.remove('dark');
+      localStorage.theme = '';
     }
-  }, [isDarkMode]) ;
+  }, [isDarkMode]);
 
 
   return (
