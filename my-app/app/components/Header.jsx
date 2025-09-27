@@ -24,7 +24,7 @@ export default function Header() {
         <motion.p
         initial={{opacity:0}}
         whileInView={{ opacity: 1}}
-        transition={{duration:0.6, delay: 0.7}}  className='max-w-2xl mx-auto font-Ovo'>Full Stack Developer | 3rd Year Computer Engineering Student at Bharati Vidyapeeth College of Engineering, Lavale, Pune</motion.p>
+        transition={{duration:0.6, delay: 0.7}}  className='max-w-2xl mx-auto font-Ovo'>Full Stack Developer | Final Year Computer Engineering Student at Bharati Vidyapeeth College of Engineering, Lavale, Pune</motion.p>
         
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a

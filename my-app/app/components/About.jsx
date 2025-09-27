@@ -37,7 +37,7 @@ export default function About({ isDarkMode }) {
         whileInView={{opacity:1}}
         transition={{duration:0.6, delay: 0.8}} className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am a passionate Full Stack Developer and a 3rd-year Computer
+            I am a passionate Full Stack Developer and Final year Computer
             Engineering student at Bharati Vidyapeeth College of Engineering,
             Lavale, Pune. With a strong foundation in web development, I
             specialize in the MERN (MongoDB, Express.js, React.js, Node.js)
