@@ -29,7 +29,7 @@ export default function About({ isDarkMode }) {
           <Image
             src={assets.tushar}
             alt="user"
-            className="w-full rounded-3xl"
+            className="w-full rounded-3xl border border-black"
           />
         </motion.div>
         <motion.div

@@ -65,6 +65,7 @@ const Skills = () => {
                 <ul className="flex flex-col gap-2">
                   <li className="border border-green-500 p-2 rounded">MongoDB</li>
                   <li className="border border-green-500 p-2 rounded">MySQL</li>
+                  <li className="border border-green-500 p-2 rounded">PostgreSQL</li>
                 </ul>
               </nav>
             </motion.div>
@@ -82,6 +83,7 @@ const Skills = () => {
                   <li className="border border-green-500 p-2 rounded">Java</li>
                   <li className="border border-green-500 p-2 rounded">C++</li>
                   <li className="border border-green-500 p-2 rounded">Python</li>
+                  <li className="border border-green-500 p-2 rounded">Javascript</li>
                 </ul>
               </nav>
             </motion.div>

@@ -83,7 +83,7 @@ export const assets = {
     github,
     TM,
     TM_dark,
-    postmann
+    postmann,
 };
 
 export const workData = [
@@ -102,11 +102,11 @@ export const workData = [
         deployLink: 'https://greencart-flax.vercel.app/'
     },
     {
-        title: 'Snapy Chat app',
+        title: 'Quick AI --->',
         description: 'Full Stack',
-        bgImage: '/work-2.png',
-        githubLink: 'https://github.com/tusharmirkad/Chat-app',
-        deployLink: 'https://food-del-frontend-x298.onrender.com/'
+        bgImage: '/work-1.png',
+        githubLink: 'https://github.com/tusharmirkad/QUICK-AI',
+        deployLink: 'https://quick-ai-sigma-lilac.vercel.app/'
     },
     {
         title: 'Zerodha Clone',

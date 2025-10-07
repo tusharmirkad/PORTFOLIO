@@ -19,7 +19,7 @@ export default function Footer({isDarkMode}) {
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li><a target='_blank' href="https://github.com/tusharmirkad">GitHub</a></li>
                 <li><a target='_blank' href="https://www.linkedin.com/in/tushar-mirkad-0602b925a/">LinkedIn</a></li>
-                <li><a target='_blank' href="https://leetcode.com/u/tusharmirkad/">LeetCode</a></li>
+                <li><a target='_blank' href="https://leetcode.com/u/tusharmirkad_07/">LeetCode</a></li>
             </ul>
         </div>
     </div>
